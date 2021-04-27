@@ -1,6 +1,6 @@
 import { authHeader } from "@/services/headers.service.js";
 
-const API_ENDPOINT = "https://united-auto-sales.herokuapp.com/api";
+const API_ENDPOINT = "http://localhost:9090/api";
 
 export async function addNewCar(carData) {
   var header = authHeader();
